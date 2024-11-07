@@ -7,7 +7,6 @@
 - Vanny Mustaqimah (10222116)
 
  <H1>Membuat Website Informasi Kampus</H1>
-  <br>
   Fitur yang yang ada sekarang<br>
   - Halaman Beranda / Home  <br>
   - Halaman Informasi Fasilitas <br> 
