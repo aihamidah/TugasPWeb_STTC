@@ -9,8 +9,8 @@
  <H1>Membuat Website Informasi Kampus</H1>
   <br>
   Fitur yang yang ada sekarang
-  - Halaman Beranda / Home  
-  - Halaman Informasi Fasilitas  
-  - Halaman Informasi Kegiatan Mahasiswa  
+  - Halaman Beranda / Home  <br>
+  - Halaman Informasi Fasilitas <br> 
+  - Halaman Informasi Kegiatan Mahasiswa<br>  
 
   Website ini masih dalam tahap perkembangan dan perbaikan
