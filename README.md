@@ -6,10 +6,11 @@
 - Silva Putri P N (10222117)
 - Vanny Mustaqimah (10222116)
 
-  **Membuat Website Informasi Kampus**
+ <H1>Membuat Website Informasi Kampus</H1>
+  <br>
   Fitur yang yang ada sekarang
   - Halaman Beranda / Home
   - Halaman Informasi Fasilitas
   - Halaman Informasi Kegiatan Mahasiswa
- 
+
   Website ini masih dalam tahap perkembangan dan perbaikan
