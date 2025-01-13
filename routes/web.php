@@ -94,3 +94,6 @@ Route::get('/DataAkademik', function () {
 
 // Rute CRUD Dosen menggunakan resource controller
 Route::resource('dosens', DosenController::class);
+
+Route::post('/submit-dosen', [DosenController::class, 'store'])->name('dosen.store');
+

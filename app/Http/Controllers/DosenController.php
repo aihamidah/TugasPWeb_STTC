@@ -7,24 +7,22 @@ use Illuminate\Http\Request;
 
 class DosenController extends Controller
 {
-    public function create()
-    {
-        return view('dosen.create');
-    }
-
     public function store(Request $request)
     {
-        $request->validate([
-            'name' => 'required',
-            'nidn' => 'required|unique:dosens',
-            'program_studi' => 'required',
+        // Validasi data dari form
+        $validated = $request->validate([
+            'name' => 'required|string',
+            'nidn' => 'required|string|unique:dosens',
+            'program_studi' => 'required|string',
             'email' => 'required|email|unique:dosens',
-            'phone' => 'required',
-            'address' => 'required',
+            'phone' => 'required|string',
+            'address' => 'required|string',
         ]);
 
-        Dosen::create($request->all());
+        // Menyimpan data dosen
+        Dosen::create($validated);
 
-        return redirect()->back()->with('success', 'Data dosen berhasil disimpan!');
+        // Redirect ke halaman lain dengan pesan sukses
+        return redirect()->route('dosens.index')->with('success', 'Data dosen berhasil disimpan!');
     }
 }

@@ -49,7 +49,8 @@
 
     <h2 style="text-align: center;">Form Data Diri Dosen</h2>
 
-    <form action="submit_dosen.php" method="POST">
+    <form action="{{ route('dosen.store') }}" method="POST">
+        @csrf
         <label for="name">Nama Lengkap:</label>
         <input type="text" id="name" name="name" placeholder="Masukkan nama lengkap" required>
 
