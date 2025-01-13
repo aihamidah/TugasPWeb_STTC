@@ -82,3 +82,9 @@ Route::get('/rilis', function () {
 Route::get('/kdd', function () {
     return view('/../ukm/kdd');
 });
+
+
+// Data Akademik Dosen
+Route::get('/DataAkademik', function () {
+    return view('DataAkademik');
+});

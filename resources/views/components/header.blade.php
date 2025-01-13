@@ -26,6 +26,7 @@
                         <li class="nav-item active">
                             <a class="nav-link" href="{{ url('/fasilitas') }}">Fasilitas</a>
                         </li>
+
                     </ul>
                 </div>
 
@@ -38,6 +39,9 @@
                         <a class="dropdown-item" href="{{ url('/ekstrakulikuler') }}">Unit Kegiatan Mahasiswa</a>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="#contact">Contact Us</a>
+                        <div class="dropdown-divider"></div><div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="{{ url('/DataAkademik') }}">Data Akademik Dosen</a>
+                        <div class="dropdown-divider"></div>
                     </div>
                 </li>
 
