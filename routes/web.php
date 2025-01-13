@@ -2,7 +2,9 @@
 
 use Illuminate\Support\Facades\Route;
 
+use App\Http\Controllers\DosenController;
 use App\Http\Controllers\HomeController;
+
 
 use function PHPUnit\Framework\returnValue;
 
@@ -10,6 +12,7 @@ route::get('/',function(){
     return view('index');
 });
 
+// Halaman-halaman lain
 Route::get('/profile', function () {
     return view('profile');
 });
@@ -88,3 +91,6 @@ Route::get('/kdd', function () {
 Route::get('/DataAkademik', function () {
     return view('DataAkademik');
 });
+
+// Rute CRUD Dosen menggunakan resource controller
+Route::resource('dosens', DosenController::class);
