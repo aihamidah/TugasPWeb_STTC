@@ -127,16 +127,31 @@
       </div>
     </nav>
 
-    <div class="container titleArtikel">
-      <ul id="autoWidth" class="cs-hidden">
-        <li class="item-a">
-          <section class="video-container">
-            <h2>Profil Informatika</h2>
-            <iframe src="https://www.youtube.com/embed/zV9LbxGakAI" allowfullscreen></iframe>
-          </section>
-        </li>
-      </ul>
+    < class="container titleArtikel">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="ukm/images/di1.jpg" class="d-block w-100" alt="Slide 1">
+              </div>
+              {{-- <div class="carousel-item">
+                <img src="ukm/images/di2.jpg" class="d-block w-100" alt="Slide 2">
+              </div>
+              <div class="carousel-item">
+                <img src="ukm/images/di3.jpg" class="d-block w-100" alt="Slide 3">
+              </div>
+              <div class="carousel-item">
+                  <img src="ukm/images/di4.jpg" class="d-block w-100" alt="Slide 2">
+                </div>
+                <div class="carousel-item">
+                  <img src="ukm/images/di5.jpg" class="d-block w-100" alt="Slide 3">
+                </div> --}}
     </div>
+        </div>
 
 
     <div class="container mt-4">
