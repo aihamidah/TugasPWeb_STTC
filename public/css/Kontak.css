@@ -1,7 +1,7 @@
 
 /* kontak */
 section-contact{
-  padding: 150px 10%;
+  padding: 150px 30%;
 }
 
 .kontak{
@@ -52,7 +52,7 @@ section-contact{
 .medsos{
   display: flex;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 4px;
 }
 
 .medsos img{

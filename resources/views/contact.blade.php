@@ -1,35 +1,34 @@
 <x-layout>
 <section-contact class="kontak">
     <div class="kontak-img">
-      <img src="profile.png" alt="logo profil" />
-      <h2>Admin</h2>
+      <img src="images/sttc.png" alt="logo profil" />
     </div>
     <div class="kontak-form">
       <h2>Hubungi Kami</h2>
       <hr />
       <div class="medsos">
-        <img src="email.png" alt="logo email" />
-        <p>Binewscom@gmail.com</p>
+        <img src="img/email.png" alt="logo email" />
+        <p>admin@sttcipasung.ac.id</p>
       </div>
       <div class="medsos">
-        <img src="phone.png" alt="logo telepon" />
-        <p>+62938382882</p>
+        <img src="img/phone.png" alt="logo telepon" />
+        <p>+6283131082277</p>
       </div>
       <div class="medsos">
-        <img src="whatsapp.png" alt="logo whatsapp" />
-        <p>0877-2256-8711</p>
+        <img src="img/whatsapp.png" alt="logo whatsapp" />
+        <p>083131082277</p>
       </div>
       <div class="medsos">
-        <img src="instagram.png" alt="logo instagram" />
-        <p>@binews-com</p>
+        <img src="img/instagram.png" alt="logo instagram" />
+        <p>sttcipasung_official</p>
       </div>
       <div class="medsos">
-        <img src="facebook.png" alt="logo facebook" />
-        <p>@Binews-com</p>
+        <img src="img/facebook.png" alt="logo facebook" />
+        <p>STT Cipasung</p>
       </div>
       <div class="medsos">
-        <img src="youtube.png" alt="logo youtube" />
-        <p>Binews-com Officials</p>
+        <img src="img/youtube.png" alt="logo youtube" />
+        <p>STT Cipasung</p>
       </div>
     </div>
   </section-contact>
