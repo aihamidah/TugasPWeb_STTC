@@ -8,107 +8,6 @@
         </p>
       </div>
 
-    <ul id="autoWidth" class="cs-hidden">
-        <li class="item-a">
-            <section class="slideshow">
-                <img class="satu" src="images/banner-shd.png" alt="Team Work">
-                <div class="shadow"></div>
-                <div class="container">
-                    <div class="mainText">
-                        <div class="garis"></div>
-                        <h3>Our Values</h3>
-                        <h1>TEAMWORK</h1>
-                    </div>
-
-                    <h3>Teamwork In Our Endeavours</h3>
-                </div>
-            </section>
-        </li>
-
-        <li class="item-a">
-            <section class="slideshow">
-                <img class="dua" src="images/banner-shd.png" alt="Team Work">
-                <div class="shadow"></div>
-                <div class="container">
-                    <div class="mainText">
-                        <div class="garis"></div>
-                        <h3>Our Values</h3>
-                        <h1>humility</h1>
-                    </div>
-
-                    <h3>Humility In Our Accomplishments</h3>
-                </div>
-            </section>
-        </li>
-
-        <li class="item-a">
-            <section class="slideshow">
-                <img class="tiga" src="images/banner-shd.png" alt="Team Work">
-                <div class="shadow"></div>
-                <div class="container">
-                    <div class="mainText">
-                        <div class="garis"></div>
-                        <h3>Our Values</h3>
-                        <h1>Respect</h1>
-                    </div>
-
-                    <h3>Respect For One Another</h3>
-                </div>
-            </section>
-        </li>
-
-        <li class="item-a">
-            <section class="slideshow">
-                <img class="empat" src="images/banner-shd.png" alt="Team Work">
-                <div class="shadow"></div>
-                <div class="container">
-                    <div class="mainText">
-                        <div class="garis"></div>
-                        <h3>Our Values</h3>
-                        <h1>integrity</h1>
-                    </div>
-
-                    <h3>Integrity In Our Relationships</h3>
-                </div>
-            </section>
-        </li>
-
-        <li class="item-a">
-            <section class="slideshow">
-                <img class="lima" src="images/banner-shd.png" alt="Team Work">
-                <div class="shadow"></div>
-                <div class="container">
-                    <div class="mainText">
-                        <div class="garis"></div>
-                        <h3>Our Values</h3>
-                        <h1>commitment</h1>
-                    </div>
-
-                    <h3>Commitment To The Work We Undertake</h3>
-                </div>
-            </section>
-        </li>
-
-
-        <li class="item-a">
-            <section class="slideshow">
-                <img class="enam" src="images/banner-shd.png" alt="Team Work">
-                <div class="shadow"></div>
-                <div class="container">
-                    <div class="mainText">
-                        <div class="garis"></div>
-                        <h3>Our Values</h3>
-                        <h1>excellence</h1>
-                    </div>
-
-                    <h3>Excellence In Whatever We Do</h3>
-                </div>
-            </section>
-        </li>
-
-    </ul>
-
-    
 
       <div class="container ekstrakulikuler">
         {{-- <a href="ukm/kelapa.html" class="perEkstrakulikuler"> --}}
@@ -160,5 +59,9 @@
       </div>
 
     </div>
+
+    <br>
+    <br>
+    <br>
 
 </x-layout>
