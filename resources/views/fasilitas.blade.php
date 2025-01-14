@@ -112,8 +112,7 @@
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="#contact">Contact Us</a>
                     </div>
-
-            </li>
+                </li>
           </ul>
           <form class="form-inline my-2 my-lg-0">
             <input class="form-control sm-2" type="search" placeholder="Cari Artikel" aria-label="Search">

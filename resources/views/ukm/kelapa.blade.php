@@ -88,7 +88,7 @@
       <div class="container">
         <a class="navbar-brand" href="#">
           <img src="../images/kelapa.png" alt="STT Cipasung" />
-          <h1>Keluarga Pecinta Alam<br />stt cipasung</h1>
+          <h1>Mapala<br />stt cipasung</h1>
         </a>
 
         <button
@@ -206,74 +206,11 @@
         </div>
       </div>
     </div>
+<br>
+<br>
 
 
+@include('components.footer')
 
-    <div class="footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <h4 class="my-4 text-white text-center">Contact Us</h4>
-
-            <div class="footerContactUs">
-              <div class="perFooterContactUs">
-                <i class="fas text-white fa-envelope"></i>
-                <p class="text-white">admin@sttcipasung.ac.id</p>
-              </div>
-
-              <div class="perFooterContactUs">
-                <i class="fas text-white fa-phone-alt"></i>
-                <p class="text-white">08111121212</p>
-              </div>
-
-              <div class="perFooterContactUs">
-                <i class="fas text-white fa-road"></i>
-                <p class="text-white">
-                  Jl. Cisinga No.KM1, Cilampunghilir, Kec. Padakembang,
-                  Kabupaten Tasikmalaya, Jawa Barat 46466
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <h4 class="my-4 text-center text-white">About</h4>
-            <div class="footerAbout">
-              <a href="" class="text-white">Fasilitas</a>
-              <a href="" class="text-white">Galeri</a>
-              <a href="" class="text-white">Contact Us</a>
-              <a href="" class="text-white">Ekstrakulikuler</a>
-            </div>
-          </div>
-
-          <div class="col-md-4 text-center">
-            <h4 class="my-4 text-white">Newsletter</h4>
-            <form>
-              <div class="form-group">
-                <input
-                  class="form-control"
-                  type="search"
-                  placeholder="Example@gmail.com"
-                  aria-label="Search"
-                />
-                <button class="btn btn-success btn-newsletter" type="submit">
-                  Kirim
-                </button>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="footerCopyright">
-      <p class="text-white">
-        <i class="far fa-copyright"></i>2024 By :
-        <span>ARKOM Group</span>.&nbsp; Inspired by
-        <a href="https://sttcipasung.ac.id/">STT Cipasung</a>
-      </p>
-    </div>
-
-    <script src="../js/script.js"></script>
   </body>
 </html>

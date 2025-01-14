@@ -23,6 +23,8 @@ Route::get('/fasilitas', function () {
 
 
 
+
+
 Route::get('/ekstrakulikuler', function () {
     return view('ekstrakulikuler');
 });
