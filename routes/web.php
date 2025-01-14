@@ -24,13 +24,17 @@ Route::get('/fasilitas', function () {
 
 
 
-
+// more
 Route::get('/ekstrakulikuler', function () {
     return view('ekstrakulikuler');
 });
 
 Route::get('/tampildata', function () {
     return view('tampildata');
+});
+
+Route::get('/contact', function () {
+    return view('contact');
 });
 
 
@@ -42,12 +46,6 @@ Route::get('/informatika', function () {
 Route::get('/TeknikIndustri', function () {
     return view('TeknikIndustri');
 });
-
-
-
-
-
-
 
 
 

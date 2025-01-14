@@ -12,6 +12,8 @@
         <title>Profil STT Cipasung</title>
         <link rel="stylesheet" href="css/style.css" />
         <link rel="shortcut icon" href="images/sttc.png" type="image/x-icon" />
+         <!-- ini link untuk menghubungkan html dengan css -->
+        <link rel="stylesheet" href="css/Kontak.css" type="text/css" media="all" />
 
         <!-- font awesome -->
         <link
@@ -65,8 +67,9 @@
           referrerpolicy="no-referrer"
         ></script>
 
-      </head>
+   
 
+      </head>
 <body>
 
     <x-header></x-header>

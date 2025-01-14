@@ -44,7 +44,8 @@
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="{{ url('/DataAkademik') }}">Data Akademik</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#contact">Contact Us</a>
+                        <a class="dropdown-item" href="{{ url('/contact') }}">Contact Us</a>
+                        <div class="dropdown-divider"></div>
                     </div>
                 </li>
             </ul>
