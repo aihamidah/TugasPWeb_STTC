@@ -250,7 +250,7 @@
                       <div class="row" data-aos="fade-up" data-aos-delay="100">
 
                         <div class="col-lg-6 ">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1422.7303254261606!2d108.12691619651355!3d-7.34190599860719!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6f543d8603f1ef%3A0x3e8fd21c410622ca!2sSekolah%20Tinggi%20Teknologi%20Cipasung!5e1!3m2!1sen!2sid!4v1696990137194!5m2!1sen!2sid" width="550" height="380" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1422.7303254261606!2d108.12691619651355!3d-7.34190599860719!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6f543d8603f1ef%3A0x3e8fd21c410622ca!2sSekolah%20Tinggi%20Teknologi%20Cipasung!5e1!3m2!1sen!2sid!4v1696990137194!5m2!1sen!2sid" width="450" height="280" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 
                         </div>
