@@ -10,6 +10,7 @@
 
 body {
   position: relative;
+  padding-top: 5%;
 }
 
 .navbar {
@@ -690,7 +691,7 @@ body {
 
 
 .footer {
-  background-color: #3bbd34;
+  background-color: #ffffff;
   padding-top: 25px;
   padding-bottom: 50px;
   margin-top: 125px;
@@ -1086,4 +1087,44 @@ iframe {
 
 html {
     scroll-behavior: smooth;
+}
+
+/* data akademik */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f9f9f9;
+}
+form {
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #45a049;
 }

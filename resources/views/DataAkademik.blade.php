@@ -1,52 +1,19 @@
-<!DOCTYPE html>
+{{-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Data Diri Dosen</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            background-color: #f9f9f9;
-        }
-        form {
-            max-width: 500px;
-            margin: auto;
-            background: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        label {
-            font-weight: bold;
-            display: block;
-            margin-top: 10px;
-        }
-        input, select, textarea {
-            width: 100%;
-            padding: 10px;
-            margin-top: 5px;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            font-size: 14px;
-        }
-        button {
-            background-color: #4CAF50;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            margin-top: 20px;
-            cursor: pointer;
-        }
-        button:hover {
-            background-color: #45a049;
-        }
-    </style>
+
+    </style>--}}
+
+    <x-layout>
 </head>
 <body>
 
+
+    <div class="countainer">
     <h2 style="text-align: center;">Form Data Diri Dosen</h2>
 
     <form action="{{ route('dosen.store') }}" method="POST">
@@ -61,10 +28,7 @@
         <select id="program_studi" name="program_studi" required>
             <option value="">-- Pilih Program Studi --</option>
             <option value="Informatika">Informatika</option>
-            <option value="Sistem Informasi">Sistem Informasi</option>
-            <option value="Teknik Elektro">Teknik Elektro</option>
-            <option value="Teknik Mesin">Teknik Mesin</option>
-            <option value="Teknik Sipil">Teknik Sipil</option>
+            <option value="Sistem Informasi">Teknik Industri</option>
         </select>
 
         <label for="email">Email:</label>
@@ -78,6 +42,9 @@
 
         <button type="submit">Submit</button>
     </form>
+    </div>
 
-</body>
-</html>
+</x-layout>
+
+{{-- </body>
+</html> --}}
