@@ -127,3 +127,11 @@ Route::get('/perpustakaan', function () {
 Route::get('/asrama', function () {
     return view('tempat/asrama');
 });
+
+Route::get('/lapangan', function () {
+    return view('tempat/lapangan');
+});
+
+Route::get('/kantin', function () {
+    return view('tempat/kantin');
+});

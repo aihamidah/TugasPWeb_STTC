@@ -10,7 +10,7 @@
       <div class="text-center">
           <h2 class="mb-3">Laboratorium Komputer</h2>
           <p>
-          Laboratorium Komputer kampus ini merupakan fasilitas yang digunakan untuk mendukung kegiatan praktikum, penelitian, 
+          Laboratorium Komputer kampus STT Cipasung merupakan fasilitas yang digunakan untuk mendukung kegiatan praktikum, penelitian, 
           dan pembelajaran berbasis teknologi informasi. Laboratorium ini dilengkapi dengan komputer-komputer terbaru yang terhubung 
           dengan jaringan internet cepat, serta perangkat lunak yang dibutuhkan untuk berbagai disiplin ilmu, seperti desain grafis, 
           pemrograman, dan analisis data.

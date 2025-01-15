@@ -3,16 +3,17 @@
   <div class="container mt-5">
       <!-- Gambar Aula -->
       <div class="text-center mb-4">
-          <img src="{{ asset('images/fasilitas/aula.jpg') }}" alt="Aula" class="img-fluid rounded">
+          <img src="{{ asset('images/fasilitas/kantin.jpg') }}" alt="kantin" class="img-fluid rounded">
       </div>
 
       <!-- Deskripsi Aula -->
       <div class="text-center">
-          <h2 class="mb-3">Aula Utama Kampus</h2>
+          <h2 class="mb-3">Kantin</h2>
           <p>
-              Aula utama kampus STT Cipasung digunakan untuk berbagai kegiatan, seperti seminar, pertemuan, dan acara lainnya.
-              Dengan kapasitas yang besar, aula ini dapat menampung hingga 500 orang. Lokasinya berada di Gedung Serba Guna, Lantai 2.
-              Aula ini dilengkapi dengan fasilitas audio visual yang modern dan ruang yang nyaman untuk mendukung berbagai kegiatan kampus.
+          Kantin STT Cipasung merupakan tempat yang nyaman untuk mahasiswa, dosen, dan staf kampus menikmati berbagai pilihan 
+          makanan dan minuman.Kantin ini menyediakan menu makanan yang beragam, mulai dari makanan berat, camilan, hingga minuman 
+          segar yang dapat dinikmati di area makan yang luas dan nyaman. Dengan harga yang terjangkau, kantin menjadi tempat favorit 
+          untuk bersantai, makan siang bersama, atau sekadar berkumpul dan berbincang.
           </p>
 
 

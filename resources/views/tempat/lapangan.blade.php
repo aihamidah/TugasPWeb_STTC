@@ -3,16 +3,17 @@
   <div class="container mt-5">
       <!-- Gambar Aula -->
       <div class="text-center mb-4">
-          <img src="{{ asset('images/fasilitas/aula.jpg') }}" alt="Aula" class="img-fluid rounded">
+          <img src="{{ asset('images/fasilitas/labkom.jpg') }}" alt="labkom" class="img-fluid rounded">
       </div>
 
       <!-- Deskripsi Aula -->
       <div class="text-center">
-          <h2 class="mb-3">Aula Utama Kampus</h2>
+          <h2 class="mb-3">Lapangan</h2>
           <p>
-              Aula utama kampus STT Cipasung digunakan untuk berbagai kegiatan, seperti seminar, pertemuan, dan acara lainnya.
-              Dengan kapasitas yang besar, aula ini dapat menampung hingga 500 orang. Lokasinya berada di Gedung Serba Guna, Lantai 2.
-              Aula ini dilengkapi dengan fasilitas audio visual yang modern dan ruang yang nyaman untuk mendukung berbagai kegiatan kampus.
+          Lapangan STT Cipasung adalah fasilitas olahraga yang digunakan untuk berbagai kegiatan fisik dan olahraga, seperti sepak bola,
+           basket, voli, serta aktivitas olahraga lainnya.Dengan luas area yang memadai, lapangan ini dapat menampung kegiatan olahraga 
+           baik untuk latihan maupun kompetisi antar mahasiswa. Fasilitas ini juga sering digunakan untuk acara-acara kampus, seperti upacara 
+           bendera, pentas seni, dan acara keolahragaan.
           </p>
 
 

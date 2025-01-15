@@ -10,7 +10,7 @@
       <div class="text-center">
           <h2 class="mb-3">Mesjid</h2>
           <p>
-            Masjid Kampus adalah tempat ibadah yang digunakan oleh seluruh civitas akademika untuk melaksanakan kegiatan keagamaan, 
+            Mesjid Kampus STT Cipasung adalah tempat ibadah yang digunakan oleh seluruh civitas akademika untuk melaksanakan kegiatan keagamaan, 
             seperti sholat berjamaah, kajian agama, dan berbagai acara spiritual lainnya.Dengan kapasitas yang nyaman, masjid ini dapat 
             menampung hingga 300 orang. Lokasinya berada di area pusat kampus, dekat dengan fasilitas utama dan mudah diakses oleh mahasiswa,
              dosen, serta staf kampus.Masjid ini dilengkapi dengan fasilitas yang mendukung kenyamanan, seperti pendingin udara, 

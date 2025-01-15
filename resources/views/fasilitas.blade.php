@@ -101,7 +101,7 @@
       </a>
 
 
-      <a href="#" class="text-decoration-none">
+      <a href="lapangan" class="text-decoration-none">
         <div class="perArtikel">
           <img src="images/fasilitas/labkom.jpg" alt="Artikel" />
           <div class="textArtikel">
@@ -111,7 +111,7 @@
         </div>
       </a>
 
-      <a href="#" class="text-decoration-none">
+      <a href="kantin" class="text-decoration-none">
         <div class="perArtikel">
           <img src="images/fasilitas/kantin.jpg" alt="Artikel" />
           <div class="textArtikel">
