@@ -115,3 +115,7 @@ Route::get('/kelas', function () {
 Route::get('/laboratoriumK', function () {
     return view('tempat/laboratoriumK');
 });
+
+Route::get('/praktekTI', function () {
+    return view('tempat/praktekTI');
+});

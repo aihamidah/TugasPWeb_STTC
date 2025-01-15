@@ -65,7 +65,7 @@
         </div>
       </a>
 
-      <a href="#" class="text-decoration-none">
+      <a href="praktekTI" class="text-decoration-none">
         <div class="perArtikel">
           <img src="images/fasilitas/industri.jpeg" alt="Artikel" />
           <div class="textArtikel">
