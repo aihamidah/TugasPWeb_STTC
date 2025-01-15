@@ -1,23 +1,12 @@
 <x-layout>
       <br><br><br>
-      <navbar-if>
+      <navbar-if >
         <div class="d-flex flex-column align-items-center text-center w-100">
             <h2 class="m-0">INFORMATIKA</h2>
             <p>Sekolah Tinggi Teknologi Cipasung</p>
         </div>
-        <ul class="d-flex justify-content-center list-unstyled mt-2 mx-0 mb-0">
-            <li class="mx-3">
-                <a href="#about" class="text-white text-decoration-none">Tentang</a>
-            </li>
-            <li class="mx-3">
-                <a href="#programs" class="text-white text-decoration-none">Himpunan</a>
-            </li>
-            <li class="mx-3">
-                <a href="#news" class="text-white text-decoration-none">Dokumentasi</a>
-            </li>
-        </ul>
     </navbar-if>
-    
+
 
     <!-- Hero Section -->
     <main class="container-lg m-auto p-20 bg-white mb-4">
@@ -30,26 +19,20 @@
             <div class="col-lg-6">
               <h2 class="display-4">Tentang Jurusan</h2>
               <p class="lead">
-                lorem QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW
-                <br />
-                dusgghshsjkdsfsdfddhfdshihsihsi
+                Informatika merupakan bidang ilmu yang mempelajari bagaimana menggunakan teknologi
+                komputer secara optimal guna menangani masalah transformasi atau pengolahan data
+                dengan logika. Di Jurusan Informatika kamu akan mempelajari berbagai prinsip terkait
+                ilmu komputer mulai dari proses perancangan, pengembangan, pengujian, hingga evaluasi
+                operasi perangkat lunak. Selama kuliah kamu akan banyak mengkaji pemrograman dan
+                komputasi, dan dibekali pula dengan keterampilan merancang perangkat lunak<br/>
               </p>
             </div>
             <div class="col-lg-6">
               <img
-                src="img/"
+                src="images/informatika.png"
                 alt="Informatika"
                 class="img-fluid"
               />
-            </div>
-            <div class="my-4">
-              <button
-                type="button"
-                class="btn btn-outline-primary"
-                onclick="document.getElementById('programs').scrollIntoView({behavior: 'smooth'});"
-              >
-                Pelajari Lebih Lanjut
-              </button>
             </div>
           </div>
         </div>
@@ -60,70 +43,38 @@
         <div class="container">
           <h2 class="text-center mb-4">Himpunan</h2>
           <div class="row justify-content-center">
-            <!-- Teknik Informatika -->
-            <div class="col-md-4 mb-4">
-              <div class="card h-100">
-                <img
-                  src="assets/img/teknik-informatika.jpg"
-                  class="card-img-top"
-                  alt="Teknik Informatika"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Teknik Informatika</h5>
-                  <p class="card-text">
-                    Program yang fokus pada pengembangan perangkat lunak,
-                    pemrograman, kecerdasan buatan, dan teknologi jaringan untuk
-                    mendukung inovasi di era digital.
-                  </p>
-                  <a href="#" class="btn btn-primary">Pelajari Lebih Lanjut</a>
+            <p class="text-center">
+                Kami adalah wadah bagi mahasiswa Teknik Informatika untuk mengembangkan potensi, berbagi pengetahuan, dan menciptakan inovasi di dunia teknologi. Dengan semangat kolaborasi dan kreativitas, HIMTI-STTC siap menjadi jembatan bagi seluruh mahasiswa dalam memperluas wawasan, membangun jejaring, serta meraih prestasi baik di tingkat akademik maupun non-akademik. Mari bersama-sama menciptakan masa depan teknologi yang lebih baik!
+              </p>
+
+              <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                  <img src="images/prodi/if1.jpeg" class="card-img-top img-fluid h-100" alt="Teknik Informatika"/>
                 </div>
               </div>
-            </div>
-            <!-- Sistem Informasi -->
-            <div class="col-md-4 mb-4">
-              <div class="card h-100">
-                <img
-                  src="assets/img/sistem-informasi.jpg"
-                  class="card-img-top"
-                  alt="Sistem Informasi"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Sistem Informasi</h5>
-                  <p class="card-text">
-                    Menggabungkan teknologi informasi dengan manajemen bisnis
-                    untuk menciptakan solusi berbasis sistem yang efisien dan
-                    efektif dalam pengelolaan data.
-                  </p>
-                  <a href="#" class="btn btn-primary">Pelajari Lebih Lanjut</a>
+
+              <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                  <img src="images/prodi/if2.jpeg" class="card-img-top img-fluid h-100" alt="Teknik Informatika"/>
+                  <div class="card-body">
+                    <h5 class="card-title"></h5>
+                  </div>
                 </div>
               </div>
-            </div>
-            <!-- Manajemen -->
-            <div class="col-md-4 mb-4">
-              <div class="card h-100">
-                <img
-                  src="assets/img/manajemen.jpg"
-                  class="card-img-top"
-                  alt="Manajemen"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Manajemen</h5>
-                  <p class="card-text">
-                    Membekali mahasiswa dengan kemampuan kepemimpinan, strategi
-                    bisnis, dan pengelolaan sumber daya untuk menghadapi
-                    tantangan dunia usaha modern.
-                  </p>
-                  <a href="#" class="btn btn-primary">Pelajari Lebih Lanjut</a>
+
+              <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                  <img src="images/prodi/if3.jpeg" class="card-img-top img-fluid h-100" alt="Teknik Informatika"/>
+                  <div class="card-body">
+                    <h5 class="card-title"></h5>
+                    <p class="card-text"></p>
+                  </div>
                 </div>
               </div>
-            </div>
+
           </div>
         </div>
       </section>
-
-      
-      
     </main>
-
 
   </x-layout>
