@@ -123,3 +123,7 @@ Route::get('/praktekTI', function () {
 Route::get('/perpustakaan', function () {
     return view('tempat/perpustakaan');
 });
+
+Route::get('/asrama', function () {
+    return view('tempat/asrama');
+});

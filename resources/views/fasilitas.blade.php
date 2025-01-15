@@ -89,7 +89,7 @@
         </div>
       </a>
 
-      <a href="#" class="text-decoration-none">
+      <a href="asrama" class="text-decoration-none">
         <div class="perArtikel">
           <img src="images/fasilitas/asrama.jpeg" alt="Artikel" />
           <div class="textArtikel">
