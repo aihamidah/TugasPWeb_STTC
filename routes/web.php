@@ -107,3 +107,7 @@ Route::get('/Aula', function () {
 Route::get('/mesjid', function () {
     return view('tempat/mesjid');
 });
+
+Route::get('/kelas', function () {
+    return view('tempat/kelas');
+});

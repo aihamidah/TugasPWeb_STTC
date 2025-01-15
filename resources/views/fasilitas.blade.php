@@ -40,7 +40,7 @@
         </div>
       </a>
 
-      <a href="#" class="text-decoration-none">
+      <a href="kelas" class="text-decoration-none">
         <div class="perArtikel">
           <img src="images/fasilitas/kelas.jpg" alt="Artikel" />
           <div class="textArtikel">
