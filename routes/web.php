@@ -111,3 +111,7 @@ Route::get('/mesjid', function () {
 Route::get('/kelas', function () {
     return view('tempat/kelas');
 });
+
+Route::get('/laboratoriumK', function () {
+    return view('tempat/laboratoriumK');
+});
