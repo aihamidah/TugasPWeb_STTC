@@ -78,6 +78,7 @@ Route::get('/proclub', function () {
     return view('/../ukm/proclub');
 });
 
+
 Route::get('/rilis', function () {
     return view('/../ukm/rilis');
 });
@@ -97,3 +98,8 @@ Route::resource('dosens', DosenController::class);
 
 Route::post('/submit-dosen', [DosenController::class, 'store'])->name('dosen.store');
 
+
+// fasilitas
+Route::get('/Aula', function () {
+    return view('/fasilitas/Aula');
+});
