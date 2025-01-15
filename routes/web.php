@@ -119,3 +119,7 @@ Route::get('/laboratoriumK', function () {
 Route::get('/praktekTI', function () {
     return view('tempat/praktekTI');
 });
+
+Route::get('/perpustakaan', function () {
+    return view('tempat/perpustakaan');
+});

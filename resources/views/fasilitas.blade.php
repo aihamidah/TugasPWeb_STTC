@@ -77,7 +77,7 @@
         </div>
       </a>
 
-      <a href="#" class="text-decoration-none">
+      <a href="perpustakaan" class="text-decoration-none">
         <div class="perArtikel">
           <img src="images/fasilitas/perpus.jpg" alt="Artikel" />
           <div class="textArtikel">
