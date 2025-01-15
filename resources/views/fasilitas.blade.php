@@ -1,4 +1,5 @@
 <x-layout>
+<div>
     <div class="container titleArtikel">
       <!-- <h1>Latest Post</h1> -->
       <h1>Fasilitas Kampus</h1>
@@ -119,5 +120,7 @@
               Kantin STT Cipasung adalah tempat favorit mahasiswa untuk bersantai dan menikmati makanan serta minuman setelah aktivitas belajar. Menyediakan berbagai pilihan menu dengan harga yang terjangkau, kantin ini tidak hanya menjadi tempat makan, tetapi juga tempat berkumpul dan berinteraksi sosial, menciptakan suasana yang santai dan penuh keakraban di antara komunitas kampus.          </div>
         </div>
       </a>
-
+    <br>
+  <br>
+</div>
 </x-layout>
