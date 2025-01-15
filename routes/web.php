@@ -101,5 +101,5 @@ Route::post('/submit-dosen', [DosenController::class, 'store'])->name('dosen.sto
 
 // fasilitas
 Route::get('/Aula', function () {
-    return view('/fasilitas/Aula');
+    return view('tempat/Aula');
 });

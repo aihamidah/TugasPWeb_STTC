@@ -6,7 +6,7 @@
     </div>
 
     <div class="container artikel">
-      <a href="{{ url('/fasilitas/Aula') }}" class="text-decoration-none">
+        <a href="Aula" class="text-decoration-none">
         <div class="perArtikel">
           <img src="images/fasilitas/aula.jpg" alt="aula" />
           <div class="textArtikel">
