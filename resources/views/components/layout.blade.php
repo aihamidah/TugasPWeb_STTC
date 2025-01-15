@@ -9,7 +9,7 @@
         <meta name="keywords" content="" />
         <meta name="description" content="" />
 
-        <title>Profil STT Cipasung</title>
+        <title>STT Cipasung</title>
         <link rel="stylesheet" href="css/style.css" />
         <link rel="shortcut icon" href="images/sttc.png" type="image/x-icon" />
          <!-- ini link untuk menghubungkan html dengan css -->
