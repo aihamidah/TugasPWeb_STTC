@@ -103,3 +103,7 @@ Route::post('/submit-dosen', [DosenController::class, 'store'])->name('dosen.sto
 Route::get('/Aula', function () {
     return view('tempat/Aula');
 });
+
+Route::get('/mesjid', function () {
+    return view('tempat/mesjid');
+});

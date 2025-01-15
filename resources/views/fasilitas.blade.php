@@ -23,7 +23,7 @@
         </div>
       </a>
 
-      <a href="#" class="text-decoration-none">
+      <a href="mesjid" class="text-decoration-none">
         <div class="perArtikel">
           <img src="images/fasilitas/masjid.jpg" alt="masjid" />
           <div class="textArtikel">
