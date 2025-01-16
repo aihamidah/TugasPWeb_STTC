@@ -156,57 +156,75 @@
 
 
     <div class="containerArtikelHome container">
-        <h2>Berita</h2>
-        <div class="artikelHome">
-            <a class="perArtikelHome">
+    <h2>Berita</h2>
+    <div class="artikelHome">
+        <!-- Artikel 1 -->
+        <a href="isiberita1" class="text-decoration-none">
+            <div class="perArtikelHome">
                 <img src="images/berita/b1.jpeg" alt="Foto Artikel">
                 <h3>Peserta Terbaik</h3>
                 <p>
                     Selamat kepada Sinta Siti Nuriah,SKom, @sinta.nuriah_ Alumni STT Cipasung yang telah mendapat penghargaan sebagai Peserta dan Capstone Terbaik Baparekraf Digital Talent di Acara Baparekraf Developer Day.
                 </p>
-            </a>
+            </div>
+        </a>
 
-            <a class="perArtikelHome">
+        <!-- Artikel 2 -->
+        <a href="isiberita2" class="text-decoration-none">
+            <div class="perArtikelHome">
                 <img src="images/berita/b3.jpeg" alt="Foto Artikel">
                 <h3>Juara 1 Kesenian</h3>
                 <p>
                     Selamat kepada Vizkha Angrilla Mayasari@vizkhaangrillabcdmMahasiswi dari jurusan Teknik Industri 2021 yang meraih Juara 1 Lomba Melukis Payung Geulis dalam acara Dies Natalis HIMAFAR BTH Ke 20.
                 </p>
-            </a>
+            </div>
+        </a>
 
-
-            <a class="perArtikelHome">
+        <!-- Artikel 3 -->
+        <a href="isiberita3" class="text-decoration-none">
+            <div class="perArtikelHome">
                 <img src="images/berita/b2.jpeg" alt="Foto Artikel">
                 <h3>Juara Desain Poster</h3>
                 <p>
-                    Selamat kepada Fahmi Rohmatulloh @fahmy7878 Mahasiwa dari jurusan Informatika 2021  yang meraih Juara 2 Lomba Desain Poster Competition of Physics 2024 dari Universitas Bengkulu.
+                    Selamat kepada Fahmi Rohmatulloh @fahmy7878 Mahasiswa dari jurusan Informatika 2021 yang meraih Juara 2 Lomba Desain Poster Competition of Physics 2024 dari Universitas Bengkulu.
                 </p>
-            </a>
-            <a class="perArtikelHome">
+            </div>
+        </a>
+
+        <!-- Artikel 4 -->
+        <a href="isiberita4" class="text-decoration-none">
+            <div class="perArtikelHome">
                 <img src="images/berita/b4.png" alt="Foto Artikel">
                 <h3>PEMBINAAN DAN PENYERAHAN SK BEASISWA S1 BAZNAS</h3>
                 <p>
-                    Hari Sabtu (07/09/2024)  Baznas melakukan pembinaan dan penyerahan sk penerima beasiswa s1 baznas se kabupaten tasikmalaya di aula sekolah tinggi teknologi cipasung. Ada 12 kampus yang […]                </p>
-            </a>
+                    Hari Sabtu (07/09/2024) Baznas melakukan pembinaan dan penyerahan SK penerima beasiswa S1 Baznas se Kabupaten Tasikmalaya di aula Sekolah Tinggi Teknologi Cipasung. Ada 12 kampus yang […]
+                </p>
+            </div>
+        </a>
 
-            <a class="perArtikelHome">
+        <!-- Artikel 5 -->
+        <a href="isiberita5" class="text-decoration-none">
+            <div class="perArtikelHome">
                 <img src="images/berita/b6.jpeg" alt="Foto Artikel">
                 <h3>WISUDA ANGKATAN 2020 SEKOLAH TINGGI TEKNOLOGI CIPASUNG</h3>
                 <p>
-                    Cipasung 25/09/2024 Dokumentasi: Sttcipasung_Official Pada hari rabu tanggal 25 September 2024, Sekolah Tinggi Teknologi Cipasung telah sukses melaksanakan acara Wisuda angkatan 2020. Momen bersejarah ini dihadiri […]                </p>
-            </a>
+                    Cipasung 25/09/2024 Dokumentasi: Sttcipasung_Official Pada hari Rabu tanggal 25 September 2024, Sekolah Tinggi Teknologi Cipasung telah sukses melaksanakan acara Wisuda angkatan 2020. Momen bersejarah ini dihadiri […]
+                </p>
+            </div>
+        </a>
 
-            <a class="perArtikelHome">
+        <!-- Artikel 6 -->
+        <a href="isiberita6" class="text-decoration-none">
+            <div class="perArtikelHome">
                 <img src="images/berita/b5.jpeg" alt="Foto Artikel">
                 <h3>Pembukaan KTMB STT Cipasung: “To Infinity and Beyond”</h3>
                 <p>
                     (4/09/2023) Sekolah Tinggi Teknologi Cipasung (STT Cipasung) telah mempersiapkan diri untuk menyambut mahasiswa baru dengan penuh semangat pada tanggal 4 September 2023. Acara pembukaan kuliah ta’aruf […]
                 </p>
-            </a>
-
-
-        </div>
+            </div>
+        </a>
     </div>
+</div>
 
     <div class="footer">
         <div class="container">

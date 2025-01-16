@@ -135,3 +135,8 @@ Route::get('/lapangan', function () {
 Route::get('/kantin', function () {
     return view('tempat/kantin');
 });
+
+//berita
+Route::get('/isiberita1', function () {
+    return view('isiberita/isiberita1');
+});

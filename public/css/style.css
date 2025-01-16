@@ -1127,5 +1127,14 @@ button:hover {
     background-color: #45a049;
 }
 
+/* berita */
+/* Pastikan body atau container utama menggunakan flexbox */
+body, .containerArtikelHome {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Pastikan halaman mengisi seluruh tinggi layar */
+}
 
-
+main {
+  flex: 1; /* Membuat konten utama mengisi ruang yang tersisa */
+}
