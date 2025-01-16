@@ -3,7 +3,7 @@
   <div class="container mt-5">
       <!-- Gambar Aula -->
       <div class="text-center mb-4">
-          <img src="{{ asset('images/fasilitas/labkom.jpg') }}" alt="labkom" class="img-fluid rounded">
+          <img src="{{ asset('images/fasilitas/lapang.jpeg') }}" alt="labkom" class="img-fluid rounded">
       </div>
 
       <!-- Deskripsi Aula -->
