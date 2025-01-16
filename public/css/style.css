@@ -11,6 +11,7 @@
 body {
   position: relative;
   padding-top: 5%;
+  background-color: #1aac07
 }
 
 .navbar {
@@ -178,7 +179,7 @@ body {
 }
 
 .title {
-  margin: 150px auto 30px auto;
+  margin: 70px auto 30px auto;
 }
 
 .title h1 {
@@ -811,7 +812,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  margin-top: 80px;
+  margin-top: 10px;
 }
 
 .ekstrakulikuler .perEkstrakulikuler {
@@ -1088,11 +1089,7 @@ html {
 }
 
 /* data akademik */
-body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-    background-color: #f9f9f9;
-}
+
 form {
     max-width: 500px;
     margin: auto;
