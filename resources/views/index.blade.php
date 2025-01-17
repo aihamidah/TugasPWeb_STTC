@@ -275,7 +275,7 @@
 
                         <div class="col-lg-6">
                         <center><h2>Kolom Saran</h2></center>
-                          <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                          <form action="forms/#" method="post" role="form" class="php-email-form">
                             <div class="row">
                               <div class="col form-group">
                                 <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
