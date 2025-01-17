@@ -1,4 +1,5 @@
 <x-layout>
+
 <section-contact class="kontak">
     <div class="kontak-img">
       <img src="images/sttc.png" alt="logo profil" />
@@ -32,4 +33,5 @@
       </div>
     </div>
   </section-contact>
+
 </x-layout>

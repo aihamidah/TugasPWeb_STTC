@@ -9,11 +9,8 @@
     </style>--}}
 
     <x-layout>
-</head>
-<body>
 
-
-    <div class="countainer">
+    <div class="title">
     <h2 style="text-align: center;">Form Data Diri Dosen</h2>
 
     <form action="{{ route('dosen.store') }}" method="POST">
