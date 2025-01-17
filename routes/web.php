@@ -19,7 +19,6 @@ Route::get('/tampildata', [HomeController::class, 'tampildata']);
 Route::get('/contact', [HomeController::class, 'contact']);
 Route::get('/DataAkademik', [HomeController::class, 'DataAkademik']);
 
-
 // jurusan
 Route::get('/informatika', [HomeController::class, 'informatika']);
 Route::get('/TeknikIndustri', [HomeController::class, 'TeknikIndustri']);
@@ -63,11 +62,6 @@ Route::get('/kdd', function () {
     return view('/../ukm/kdd');
 });
 
-
-// Data Akademik Dosen
-Route::get('/DataAkademik', function () {
-    return view('DataAkademik');
-});
 
 // Rute CRUD Dosen menggunakan resource controller
 Route::resource('dosens', DosenController::class);
