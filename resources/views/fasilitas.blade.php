@@ -15,6 +15,11 @@
             <p>Kelas</p>
         </a>
 
+        <a href="{{ url('/kelas') }}" class="perEkstrakulikuler">
+            <img src="{{ asset('images/fasilitas/kelas.jpg') }}" alt="kelas" />
+            <p>Kelas</p>
+        </a>
+
         <a href="{{ url('/kantin') }}" class="perEkstrakulikuler">
             <img src="{{ asset('images/fasilitas/kantin.jpg') }}" alt="kantin" />
             <p>Kantin</p>
