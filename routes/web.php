@@ -1,53 +1,26 @@
 <?php
 
+
 use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\DosenController;
-use App\Http\Controllers\HomeController;
-use App\Http\Controllers\TempatController;
 
+use App\Http\Controllers\TempatController;
+use App\Http\Controllers\HomeController;
 
 use function PHPUnit\Framework\returnValue;
 
-route::get('/',function(){
-    return view('index');
-});
-
-// Halaman-halaman lain
-Route::get('/profile', function () {
-    return view('profile');
-});
-
-Route::get('/fasilitas', function () {
-    return view('fasilitas');
-});
-
-
-
-
-// more
-Route::get('/ekstrakulikuler', function () {
-    return view('ekstrakulikuler');
-});
-
-Route::get('/tampildata', function () {
-    return view('tampildata');
-});
-
-Route::get('/contact', function () {
-    return view('contact');
-});
-
+// Index/home
+Route::get('/', [HomeController::class, 'index']);
+Route::get('/profile', [HomeController::class, 'profile']);
+Route::get('/fasilitas', [HomeController::class, 'fasilitas']);
+Route::get('/ekstrakulikuler', [HomeController::class, 'ekstrakulikuler']);
+Route::get('/tampildata', [HomeController::class, 'tampildata']);
+Route::get('/contact', [HomeController::class, 'contact']);
 
 // jurusan
-Route::get('/informatika', function () {
-    return view('informatika');
-});
-
-Route::get('/TeknikIndustri', function () {
-    return view('TeknikIndustri');
-});
-
+Route::get('/informatika', [HomeController::class, 'informatika']);
+Route::get('/TeknikIndustri', [HomeController::class, 'TeknikIndustri']);
 
 
 // Unit kegiatan Mahasiswa
@@ -113,4 +86,16 @@ Route::post('/submit-dosen', [DosenController::class, 'store'])->name('dosen.sto
     Route::get('/kantin', 'kantin')->name('tempat.kantin');
 });
 
-
+// UKM
+/*Route::controller(UKMController::class)->group(function () {
+    Route::get('/kelapa', 'kelapa')->name('ukm.kelapa');
+    Route::get('/kerohanian', 'kerohanian')->name('ukm.kerohanian');
+    Route::get('/olahraga', 'olahraga')->name('ukm.olahraga');
+    Route::get('/silat', 'silat')->name('ukm.silat');
+    Route::get('/sanggar', 'sanggar')->name('ukm.sanggar');
+    Route::get('/dignity', 'dignity')->name('ukm.dignity');
+    Route::get('/proclub', 'proclub')->name('ukm.proclub');
+    Route::get('/rilis', 'rilis')->name('ukm.rilis');
+    Route::get('/kdd', 'kdd')->name('ukm.kdd');
+});
+*/
