@@ -1,12 +1,12 @@
 <x-layout>
 
   <div class="container mt-5">
-      <!-- Gambar Aula -->
+      <!-- Gambar Praktek TI -->
       <div class="text-center mb-4">
           <img src="{{ asset('images/fasilitas/industri.jpeg') }}" alt="industri" class="img-fluid rounded">
       </div>
 
-      <!-- Deskripsi Aula -->
+      <!-- Deskripsi Praktek TI -->
       <div class="text-center">
           <h2 class="mb-3">Ruang Praktek TI</h2>
           <p>

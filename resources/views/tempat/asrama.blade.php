@@ -1,17 +1,17 @@
 <x-layout>
 
   <div class="container mt-5">
-      <!-- Gambar Aula -->
+      <!-- Gambar Asrama -->
       <div class="text-center mb-4">
           <img src="{{ asset('images/fasilitas/asrama.jpeg') }}" alt="asrama" class="img-fluid rounded">
       </div>
 
-      <!-- Deskripsi Aula -->
+      <!-- Deskripsi Asrama -->
       <div class="text-center">
           <h2 class="mb-3">Asrama</h2>
           <p>
           Asrama STT Cipasung menyediakan fasilitas tempat tinggal yang nyaman bagi mahasiswa yang berasal dari luar kota atau luar daerah.
-          Asrama ini dirancang untuk memberikan kenyamanan dan keamanan bagi mahasiswa selama menjalani perkuliahan, dengan ruang kamar yang 
+          Asrama ini dirancang untuk memberikan kenyamanan dan keamanan bagi mahasiswa selama menjalani perkuliahan, dengan ruang kamar yang
           dilengkapi dengan tempat tidur, meja belajar, lemari, dan fasilitas pendukung lainnya.
           </p>
 

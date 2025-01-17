@@ -1,12 +1,12 @@
 <x-layout>
 
   <div class="container mt-5">
-      <!-- Gambar Aula -->
+      <!-- Gambar Perpustakaan -->
       <div class="text-center mb-4">
           <img src="{{ asset('images/fasilitas/perpus.jpg') }}" alt="Masjid" class="img-fluid rounded">
       </div>
 
-      <!-- Deskripsi Aula -->
+      <!-- Deskripsi Perpustakaan -->
       <div class="text-center">
           <h2 class="mb-3">Perpustakaan</h2>
           <p>

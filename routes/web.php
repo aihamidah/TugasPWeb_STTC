@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\DosenController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\TempatController;
 
 
 use function PHPUnit\Framework\returnValue;
@@ -100,40 +101,16 @@ Route::post('/submit-dosen', [DosenController::class, 'store'])->name('dosen.sto
 
 
 // fasilitas
-Route::get('/Aula', function () {
-    return view('tempat/Aula');
-});
-
-Route::get('/mesjid', function () {
-    return view('tempat/mesjid');
-});
-
-Route::get('/kelas', function () {
-    return view('tempat/kelas');
-});
-
-Route::get('/laboratoriumK', function () {
-    return view('tempat/laboratoriumK');
-});
-
-Route::get('/praktekTI', function () {
-    return view('tempat/praktekTI');
-});
-
-Route::get('/perpustakaan', function () {
-    return view('tempat/perpustakaan');
-});
-
-Route::get('/asrama', function () {
-    return view('tempat/asrama');
-});
-
-Route::get('/lapangan', function () {
-    return view('tempat/lapangan');
-});
-
-Route::get('/kantin', function () {
-    return view('tempat/kantin');
+    Route::controller(TempatController::class)->group(function () {
+    Route::get('/Aula', 'Aula')->name('tempat.Aula');
+    Route::get('/mesjid', 'mesjid')->name('tempat.mesjid');
+    Route::get('/kelas', 'kelas')->name('tempat.kelas');
+    Route::get('/laboratoriumK', 'laboratoriumK')->name('tempat.laboratoriumK');
+    Route::get('/praktekTI', 'praktekTI')->name('tempat.praktekTI');
+    Route::get('/perpustakaan', 'perpustakaan')->name('tempat.perpustakaan');
+    Route::get('/asrama', 'asrama')->name('tempat.asrama');
+    Route::get('/lapangan', 'lapangan')->name('tempat.lapangan');
+    Route::get('/kantin', 'kantin')->name('tempat.kantin');
 });
 
 

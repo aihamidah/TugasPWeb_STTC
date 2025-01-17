@@ -1,18 +1,18 @@
 <x-layout>
 
   <div class="container mt-5">
-      <!-- Gambar Aula -->
+      <!-- Gambar Kantin -->
       <div class="text-center mb-4">
           <img src="{{ asset('images/fasilitas/kantin.jpg') }}" alt="kantin" class="img-fluid rounded">
       </div>
 
-      <!-- Deskripsi Aula -->
+      <!-- Deskripsi Kantin -->
       <div class="text-center">
           <h2 class="mb-3">Kantin</h2>
           <p>
-          Kantin STT Cipasung merupakan tempat yang nyaman untuk mahasiswa, dosen, dan staf kampus menikmati berbagai pilihan 
-          makanan dan minuman.Kantin ini menyediakan menu makanan yang beragam, mulai dari makanan berat, camilan, hingga minuman 
-          segar yang dapat dinikmati di area makan yang luas dan nyaman. Dengan harga yang terjangkau, kantin menjadi tempat favorit 
+          Kantin STT Cipasung merupakan tempat yang nyaman untuk mahasiswa, dosen, dan staf kampus menikmati berbagai pilihan
+          makanan dan minuman.Kantin ini menyediakan menu makanan yang beragam, mulai dari makanan berat, camilan, hingga minuman
+          segar yang dapat dinikmati di area makan yang luas dan nyaman. Dengan harga yang terjangkau, kantin menjadi tempat favorit
           untuk bersantai, makan siang bersama, atau sekadar berkumpul dan berbincang.
           </p>
 
