@@ -26,7 +26,10 @@ class HomeController extends Controller
     {
         return view('tampildata');
     }
-
+    public function DataAkademik()
+    {
+        return view('DataAkademik');
+    }
     public function contact()
     {
         return view('contact');
@@ -40,5 +43,5 @@ class HomeController extends Controller
 public function teknikIndustri()
     {
     return view('TeknikIndustri');
-}
+    }
 }

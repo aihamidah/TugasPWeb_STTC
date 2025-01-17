@@ -17,6 +17,8 @@ Route::get('/fasilitas', [HomeController::class, 'fasilitas']);
 Route::get('/ekstrakulikuler', [HomeController::class, 'ekstrakulikuler']);
 Route::get('/tampildata', [HomeController::class, 'tampildata']);
 Route::get('/contact', [HomeController::class, 'contact']);
+Route::get('/DataAkademik', [HomeController::class, 'DataAkademik']);
+
 
 // jurusan
 Route::get('/informatika', [HomeController::class, 'informatika']);
@@ -69,9 +71,6 @@ Route::get('/DataAkademik', function () {
 
 // Rute CRUD Dosen menggunakan resource controller
 Route::resource('dosens', DosenController::class);
-
-Route::post('/submit-dosen', [DosenController::class, 'store'])->name('dosen.store');
-
 
 // fasilitas
     Route::controller(TempatController::class)->group(function () {

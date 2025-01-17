@@ -1,19 +1,9 @@
-{{-- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form Data Diri Dosen</title>
-    <style>
-
-    </style>--}}
-
     <x-layout>
 
     <div class="title">
     <h2 style="text-align: center;">Form Data Diri Dosen</h2>
 
-    <form action="{{ route('dosen.store') }}" method="POST">
+    <form action="{{ route('dosens.store') }}" method="POST">
         @csrf
         <label for="name">Nama Lengkap:</label>
         <input type="text" id="name" name="name" placeholder="Masukkan nama lengkap" required>
@@ -42,6 +32,3 @@
     </div>
 
 </x-layout>
-
-{{-- </body>
-</html> --}}

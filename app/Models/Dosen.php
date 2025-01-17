@@ -8,6 +8,15 @@ use Illuminate\Database\Eloquent\Model;
 class Dosen extends Model
 {
     use HasFactory;
+        protected $table = 'dosens';
 
-    protected $fillable = ['name', 'nidn', 'program_studi', 'email', 'phone', 'address'];
-}
+        // Tentukan field yang bisa diisi
+        protected $fillable = [
+            'name',
+            'nidn',
+            'program_studi',
+            'email',
+            'phone',
+            'address',
+        ];
+    }
