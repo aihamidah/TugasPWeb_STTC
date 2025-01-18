@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-/*
+
 class UKMController extends Controller
 {
     public function kelapa()
@@ -51,4 +51,3 @@ class UKMController extends Controller
         return view('ukm.kdd');
     }
 }
-*/

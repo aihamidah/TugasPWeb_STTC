@@ -130,18 +130,18 @@
               </a>
 
               <div class="dropdown-menu" aria-labelledby="dropdownMenuOffset">
-                <a class="dropdown-item" href="../ekstrakulikuler.html"
-                  >Unit Kegiatan Mahasiswa</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="kelapa.html">Kelapa</a>
-                <a class="dropdown-item" href="kerohanian.html">Kerohanian</a>
-                <a class="dropdown-item" href="olahraga.html">Olahraga</a>
-                <a class="dropdown-item" href="sanggar.html">Sanggar</a>
-                <a class="dropdown-item" href="dignity.html">Dignity</a>
-                <a class="dropdown-item" href="proclub.html">ProClub</a>
-                <a class="dropdown-item" href="rilis.html">Rilis</a>
-                <a class="dropdown-item" href="kdd.html">KDD</a>
-              </div>
+                <a class="dropdown-item" href="{{ url('/ekstrakulikuler') }}">Unit Kegiatan Mahasiswa</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="{{ url('/kelapa') }}">Kelapa</a>
+                    <a class="dropdown-item" href="{{ url('/kerohanian') }}">Kerohanian</a>
+                    <a class="dropdown-item" href="{{ url('/olahraga') }}">Olahraga</a>
+                    <a class="dropdown-item" href="{{ url('/silat') }}">Silat</a>
+                    <a class="dropdown-item" href="{{ url('/sanggar') }}">Sanggar</a>
+                    <a class="dropdown-item" href="{{ url('/dignity') }}">Dignity</a>
+                    <a class="dropdown-item" href="{{ url('/proclub') }}">ProClub</a>
+                    <a class="dropdown-item" href="{{ url('/rilis') }}">Rilis</a>
+                    <a class="dropdown-item" href="{{ url('/kdd') }}">KDD</a>
+                </div>
             </li>
           </ul>
           <form class="form-inline my-2 my-lg-0">
@@ -168,13 +168,13 @@
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="images/a1.png" class="d-block w-100" alt="Slide 1">
+          <img src="ukm/images/ps1.png" class="d-block w-100" alt="Slide 1">
         </div>
         <div class="carousel-item">
-          <img src="images/a2.jpg" class="d-block w-100" alt="Slide 2">
+          <img src="ukm/images/ps2.jpg" class="d-block w-100" alt="Slide 2">
         </div>
         <div class="carousel-item">
-          <img src="images/a3.jpg" class="d-block w-100" alt="Slide 3">
+          <img src="ukm/images/ps3.jpg" class="d-block w-100" alt="Slide 3">
         </div>
         <!-- <div class="carousel-item">
           <img src="images/k1.jpeg" class="d-block w-100" alt="Slide 3">

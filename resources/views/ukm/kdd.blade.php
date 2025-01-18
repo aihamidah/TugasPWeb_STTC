@@ -67,10 +67,10 @@
 
     <style>
     .carousel-item img {
-      height: 1000px; /* Atur tinggi gambar sesuai kebutuhan */
+      height: 1000px;
       width: 100px;
-      object-fit: cover; /* Membuat gambar menyesuaikan frame tanpa distorsi */
-      border-radius: 10px; /* Opsional: Membuat sudut gambar melengkung */
+      object-fit: cover; 
+      border-radius: 10px; 
     }
     .navbar .navbar-brand img {
     width: 100px;

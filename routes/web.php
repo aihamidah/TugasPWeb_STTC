@@ -5,6 +5,8 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\DosensController;
 use App\Http\Controllers\TempatController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\UKMController;
+
 
 use function PHPUnit\Framework\returnValue;
 
@@ -20,45 +22,6 @@ Route::get('/DataAkademik', [HomeController::class, 'DataAkademik']);
 // jurusan
 Route::get('/informatika', [HomeController::class, 'informatika']);
 Route::get('/TeknikIndustri', [HomeController::class, 'TeknikIndustri']);
-
-
-// Unit kegiatan Mahasiswa
-Route::get('/kelapa', function () {
-    return view('/../ukm/kelapa');
-});
-
-Route::get('/kerohanian', function () {
-    return view('/../ukm/kerohanian');
-});
-
-Route::get('/olahraga', function () {
-    return view('/../ukm/olahraga');
-});
-
-Route::get('/silat', function () {
-    return view('/../ukm/silat');
-});
-
-Route::get('/sanggar', function () {
-    return view('/../ukm/sanggar');
-});
-
-Route::get('/dignity', function () {
-    return view('/../ukm/dignity');
-});
-
-Route::get('/proclub', function () {
-    return view('/../ukm/proclub');
-});
-
-
-Route::get('/rilis', function () {
-    return view('/../ukm/rilis');
-});
-
-Route::get('/kdd', function () {
-    return view('/../ukm/kdd');
-});
 
 
 // Rute CRUD Dosen menggunakan resource controller
@@ -78,7 +41,7 @@ Route::resource('dosens', DosensController::class);
 });
 
 // UKM
-/*Route::controller(UKMController::class)->group(function () {
+Route::controller(UKMController::class)->group(function () {
     Route::get('/kelapa', 'kelapa')->name('ukm.kelapa');
     Route::get('/kerohanian', 'kerohanian')->name('ukm.kerohanian');
     Route::get('/olahraga', 'olahraga')->name('ukm.olahraga');
@@ -89,4 +52,3 @@ Route::resource('dosens', DosensController::class);
     Route::get('/rilis', 'rilis')->name('ukm.rilis');
     Route::get('/kdd', 'kdd')->name('ukm.kdd');
 });
-*/
