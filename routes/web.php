@@ -2,9 +2,7 @@
 
 
 use Illuminate\Support\Facades\Route;
-
-use App\Http\Controllers\DosenController;
-
+use App\Http\Controllers\DosensController;
 use App\Http\Controllers\TempatController;
 use App\Http\Controllers\HomeController;
 
@@ -64,7 +62,7 @@ Route::get('/kdd', function () {
 
 
 // Rute CRUD Dosen menggunakan resource controller
-Route::resource('dosens', DosenController::class);
+Route::resource('dosens', DosensController::class);
 
 // fasilitas
     Route::controller(TempatController::class)->group(function () {

@@ -10,7 +10,7 @@ APP_ENV=local
 APP_KEY=base64:F7lhitAqJVCyCpr55qPvW3MQr384srUqPEdCWnfiKyI=
 APP_DEBUG=true
 APP_TIMEZONE=UTC
-APP_URL=http://localhost
+APP_URL=http://127.0.0.1
 
 APP_LOCALE=en
 APP_FALLBACK_LOCALE=en

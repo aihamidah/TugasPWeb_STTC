@@ -5,10 +5,12 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Dosen extends Model
+class Dosens extends Model
 {
+    /** @use HasFactory<\Database\Factories\DosensFactory> */
     use HasFactory;
-        protected $table = 'dosens';
+
+    protected $table = 'dosens';
 
         // Tentukan field yang bisa diisi
         protected $fillable = [
@@ -19,4 +21,4 @@ class Dosen extends Model
             'phone',
             'address',
         ];
-    }
+}
