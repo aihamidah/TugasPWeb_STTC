@@ -15,6 +15,11 @@
           dilengkapi dengan tempat tidur, meja belajar, lemari, dan fasilitas pendukung lainnya.
           </p>
 
+          <!-- Tombol Kembali -->
+        <div class="mt-4">
+            <button class="btn btn-secondary" onclick="history.back()">Kembali</button>
+          </div>
+        </div>
 
       <section id="programs" class="mb-4">
         <div class="container">
@@ -23,13 +28,13 @@
 
               <div class="col-md-4 mb-4">
                 <div class="card h-100">
-                  <img src="images/#" class="card-img-top img-fluid h-100" alt="foto aula"/>
+                  <img src="images/fasilitas/asrama1.jpg" class="card-img-top img-fluid h-100" alt="foto aula"/>
                 </div>
               </div>
 
               <div class="col-md-4 mb-4">
                 <div class="card h-100">
-                  <img src="images/#" class="card-img-top img-fluid h-100" alt="foto aula"/>
+                  <img src="images/fasilitas/asrama2.webp" class="card-img-top img-fluid h-100" alt="foto aula"/>
                   <div class="card-body">
                     <h5 class="card-title"></h5>
                   </div>
@@ -38,7 +43,7 @@
 
               <div class="col-md-4 mb-4">
                 <div class="card h-100">
-                  <img src="images/#" class="card-img-top img-fluid h-100" alt="foto aula"/>
+                  <img src="images/fasilitas/asrama3.webp" class="card-img-top img-fluid h-100" alt="foto aula"/>
                   <div class="card-body">
                     <h5 class="card-title"></h5>
                     <p class="card-text"></p>

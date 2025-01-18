@@ -80,7 +80,7 @@
     }
 
     </style>
-    
+
   </head>
 
   <body>
@@ -106,14 +106,14 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="../index.html">Home</a>
+              <a class="nav-link" href="{{ url('/') }}">Home</a>
             </li>
 
             <li class="nav-item active">
-              <a class="nav-link" href="../profile.html">Profil</a>
+              <a class="nav-link" href="{{ url('/profile') }}">Profil</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="../fasilitas.html">Fasilitas</a>
+              <a class="nav-link" href="{{ url('/fasilitas') }}">Fasilitas</a>
             </li>
 
             <li class="nav-item active">
@@ -168,13 +168,13 @@
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="ukm/images/ps1.png" class="d-block w-100" alt="Slide 1">
+          <img src="ukm/images/ps1.jpeg" class="d-block w-100" alt="Slide 1">
         </div>
         <div class="carousel-item">
           <img src="ukm/images/ps2.jpg" class="d-block w-100" alt="Slide 2">
         </div>
         <div class="carousel-item">
-          <img src="ukm/images/ps3.jpg" class="d-block w-100" alt="Slide 3">
+          <img src="ukm/images/ps3.png" class="d-block w-100" alt="Slide 3">
         </div>
         <!-- <div class="carousel-item">
           <img src="images/k1.jpeg" class="d-block w-100" alt="Slide 3">
@@ -190,24 +190,24 @@
         <span class="sr-only">Next</span>
       </a>
     </div>
-    
+
 
 
     <div class="container mt-4">
       <div class="row">
         <div class="col-md-12" style="padding: 20px; border: 1px solid #12f816; border-radius: 8px; background-color: #2a7f00;">
           <p style="text-align: justify; color: #ffffff; font-size: 16px; line-height: 1.6;">
-                  Keluarga Pecinta Alam, yang biasa disingkat dengan nama KELAPA, merupakan salah satu organisasi internal yang bernaung di bawah Sekolah 
-                  Tinggi Teknologi (STT) Cipasung. Organisasi ini memiliki fokus utama pada bidang pelestarian alam dan lingkungan hidup. KELAPA didirikan 
-                  dengan tujuan untuk meningkatkan kesadaran, kepedulian, serta pemahaman mahasiswa dan masyarakat mengenai pentingnya menjaga kelestarian 
-                  lingkungan sebagai bagian integral dari kehidupan. Sebagai organisasi yang aktif dalam berbagai kegiatan lingkungan, KELAPA berkomitmen 
-                  untuk terus mengedukasi dan menginspirasi seluruh elemen masyarakat kampus agar lebih peduli terhadap isu-isu lingkungan yang semakin 
-                  krusial saat ini. Melalui berbagai program dan kegiatan, seperti kampanye kebersihan, penanaman pohon, serta seminar tentang pentingnya 
-                  konservasi sumber daya alam, KELAPA berupaya mendorong perubahan pola pikir serta gaya hidup yang lebih ramah lingkungan di kalangan 
-                  mahasiswa maupun masyarakat umum. Tidak hanya berfokus pada aspek teoretis, KELAPA juga mendorong partisipasi aktif dalam aksi-aksi 
-                  nyata di lapangan, baik di lingkungan kampus maupun di masyarakat luas. Dalam setiap kegiatannya, KELAPA menanamkan nilai-nilai penting 
-                  seperti rasa tanggung jawab terhadap alam, solidaritas, kerja sama tim, serta semangat gotong royong yang merupakan ciri khas budaya 
-                  Indonesia. Dengan demikian, KELAPA berharap dapat menciptakan generasi yang tidak hanya cerdas secara akademis tetapi juga peduli dan 
+                  Keluarga Pecinta Alam, yang biasa disingkat dengan nama KELAPA, merupakan salah satu organisasi internal yang bernaung di bawah Sekolah
+                  Tinggi Teknologi (STT) Cipasung. Organisasi ini memiliki fokus utama pada bidang pelestarian alam dan lingkungan hidup. KELAPA didirikan
+                  dengan tujuan untuk meningkatkan kesadaran, kepedulian, serta pemahaman mahasiswa dan masyarakat mengenai pentingnya menjaga kelestarian
+                  lingkungan sebagai bagian integral dari kehidupan. Sebagai organisasi yang aktif dalam berbagai kegiatan lingkungan, KELAPA berkomitmen
+                  untuk terus mengedukasi dan menginspirasi seluruh elemen masyarakat kampus agar lebih peduli terhadap isu-isu lingkungan yang semakin
+                  krusial saat ini. Melalui berbagai program dan kegiatan, seperti kampanye kebersihan, penanaman pohon, serta seminar tentang pentingnya
+                  konservasi sumber daya alam, KELAPA berupaya mendorong perubahan pola pikir serta gaya hidup yang lebih ramah lingkungan di kalangan
+                  mahasiswa maupun masyarakat umum. Tidak hanya berfokus pada aspek teoretis, KELAPA juga mendorong partisipasi aktif dalam aksi-aksi
+                  nyata di lapangan, baik di lingkungan kampus maupun di masyarakat luas. Dalam setiap kegiatannya, KELAPA menanamkan nilai-nilai penting
+                  seperti rasa tanggung jawab terhadap alam, solidaritas, kerja sama tim, serta semangat gotong royong yang merupakan ciri khas budaya
+                  Indonesia. Dengan demikian, KELAPA berharap dapat menciptakan generasi yang tidak hanya cerdas secara akademis tetapi juga peduli dan
                   bertanggung jawab terhadap kelangsungan alam dan lingkungan di sekitarnya.</p>
         </div>
       </div>

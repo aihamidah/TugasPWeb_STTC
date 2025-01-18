@@ -1,5 +1,5 @@
 <x-layout>
-<div class="title" style="padding: 1px;">
+    <div class="title" style="padding: 1px;">
         <h1 class="text-center">FASILITAS KAMPUS</h1>
         <p class="text-center">
             Beberapa Fasilitas Yang Ada di STT Cipasung
